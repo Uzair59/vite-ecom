@@ -18,7 +18,7 @@ function Track() {
                 }}
               >
                 <svg
-                  className="text-green-800 w-12 h-12 mb-3 inline-block"
+                  className="text-[#F57224] w-12 h-12 mb-3 inline-block"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -57,7 +57,7 @@ function Track() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-green-800 w-12 h-12 mb-3 inline-block"
+                  className="text-[#F57224] w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"
@@ -91,7 +91,7 @@ function Track() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="text-green-800 w-12 h-12 mb-3 inline-block"
+                  className="text-[#F57224] w-12 h-12 mb-3 inline-block"
                 >
                   <path
                     strokeLinecap="round"

@@ -14,7 +14,7 @@ function ProductCard() {
           >
             Our Latest Collection
           </h1>
-          <div class="h-1 w-20 bg-green-800 rounded"></div>
+          <div class="h-1 w-20 bg-[#F57224] rounded"></div>
         </div>
 
         <div className="flex flex-wrap -m-4">
@@ -56,7 +56,7 @@ function ProductCard() {
                 <div className=" flex justify-center">
                   <button
                     type="button"
-                    className="focus:outline-none text-white bg-green-800 hover:bg-green-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                    className="focus:outline-none text-white bg-[#F57224] hover:bg-orange-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
                   >
                     Add To Cart
                   </button>
@@ -103,7 +103,7 @@ function ProductCard() {
                 <div className=" flex justify-center">
                   <button
                     type="button"
-                    className="focus:outline-none text-white bg-green-800 hover:bg-green-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                    className="focus:outline-none text-white bg-[#F57224] hover:bg-orange-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
                   >
                     Add To Cart
                   </button>
@@ -150,7 +150,7 @@ function ProductCard() {
                 <div className=" flex justify-center">
                   <button
                     type="button"
-                    className="focus:outline-none text-white bg-green-800 hover:bg-green-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                    className="focus:outline-none text-white bg-[#F57224] hover:bg-orange-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
                   >
                     Add To Cart
                   </button>
@@ -197,7 +197,7 @@ function ProductCard() {
                 <div className=" flex justify-center">
                   <button
                     type="button"
-                    className="focus:outline-none text-white bg-green-800 hover:bg-green-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                    className="focus:outline-none text-white bg-[#F57224] hover:bg-orange-500 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
                   >
                     Add To Cart
                   </button>

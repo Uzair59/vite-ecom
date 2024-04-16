@@ -5,6 +5,8 @@ import { BsFillCloudSunFill } from "react-icons/bs";
 import { FiSun } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
 import MyContext from "../../context/myContext";
+import flag from '../../assets/Images/flag.jpg'
+import profile from '../../assets/Images/profile.jpg'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -135,7 +137,7 @@ export default function Navbar() {
         <p
           className="flex h-10 items-center justify-center bg-green-800 px-4 text-sm font-medium text-white sm:px-6 lg:px-8"
           style={{
-            backgroundColor: mode === "dark" ? "rgb(62 64 66)" : "",
+            backgroundColor: mode === "dark" ? "#F57224" : "#F57224",
             color: mode === "dark" ? "white" : "",
           }}
         >
@@ -186,7 +188,7 @@ export default function Navbar() {
                       className=" text-2xl font-bold text-black  px-2 py-1 rounded"
                       style={{ color: mode === "dark" ? "white" : "" }}
                     >
-                      E-Pakistan
+                      E-<span className="text-[#F57224]">Pakistan</span>
                     </h1>
                   </div>
                 </Link>
@@ -228,7 +230,7 @@ export default function Navbar() {
                 <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
-                      src="https://ecommerce-sk.vercel.app/img/indiaflag.png"
+                      src={flag}
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
@@ -236,7 +238,7 @@ export default function Navbar() {
                       className="ml-3 block text-sm font-medium"
                       style={{ color: mode === "dark" ? "white" : "" }}
                     >
-                      INDIA
+                      Pakistan
                     </span>
                   </a>
                 </div>
@@ -244,7 +246,7 @@ export default function Navbar() {
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
                       className="inline-block w-10 h-10 rounded-full"
-                      src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
+                      src={profile}
                       alt="Dan_Abromov"
                     />
                   </a>
